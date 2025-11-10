@@ -12,7 +12,13 @@ public class  Board
   private String phrase;
   private int currentLetterValue; 
 
-  /* your code here - constructor(s) */ 
+  /* your code here - constructor(s) */
+  public Board()
+  {
+  solvedPhrase = "";
+  phrase = "";
+  currentLetterValue = 0;
+  } 
   
   /* your code here - accessor(s) */
   
