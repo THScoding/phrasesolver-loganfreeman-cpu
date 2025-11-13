@@ -25,7 +25,7 @@ public class PhraseSolver
   {
     boolean solved = false;
     int currentPlayer = 1;
-
+    Player current;
     Scanner input = new Scanner(System.in);
     
     boolean correct = true;
@@ -34,8 +34,17 @@ public class PhraseSolver
 
       
       /* your code here - game logic */
-      
-      
+      if(currentPlayer == 1)
+      {
+       current = player1;
+      }
+      else
+      {
+       current = player2;
+      }
+      System.out.println("The current player is " + current.getName());
+      System.out.println("Your current partially solved phrase is " + board.getSolvedPhrase());
+      System.out.println("The next geuss will give you " + board.getCurrentLetterValue() + "points")
       /* your code here - determine how game ends */
       solved = true; 
     } 

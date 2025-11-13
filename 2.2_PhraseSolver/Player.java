@@ -28,6 +28,14 @@ public Player(String inputName)
  points = 0;
 }
   /* your code here - accessor(s) */ 
+public String getName()
+{
+ return username;
+}
+public int getPoints()
+{
+ return points;
+}
 
   /* your code here - mutator(s) */ 
      
