@@ -11,17 +11,16 @@ public class PhraseSolver
   private Player player2;
   private Board board;
   private boolean solved;
-  /* your code here - attributes */
 
   /* your code here - constructor(s) */ 
   public PhraseSolver()
   {
-    player1 = null;
-    player2 = null;
-    board = null;
+    player1 = new Player();
+    player2 = new Player();
+    board = new Board();
     solved = false;
   }
-
+  
   public void play()
   {
     boolean solved = false;
@@ -32,6 +31,7 @@ public class PhraseSolver
     boolean correct = true;
     while (!solved) 
     {
+
       
       /* your code here - game logic */
       

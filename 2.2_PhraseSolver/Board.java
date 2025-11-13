@@ -16,8 +16,8 @@ public class  Board
   public Board()
   {
   solvedPhrase = "";
-  phrase = "";
-  currentLetterValue = 0;
+  phrase = loadPhrase();
+  setLetterValue();
   } 
   
   /* your code here - accessor(s) */
