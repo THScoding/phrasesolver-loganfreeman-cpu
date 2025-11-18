@@ -36,7 +36,15 @@ public int getPoints()
 {
  return points;
 }
-
+S
   /* your code here - mutator(s) */ 
+public void setPoints(int p)
+{
+ points = p;
+}
+public void setName(String n)
+{
+ username = n;
+}
      
 }

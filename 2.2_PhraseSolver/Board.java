@@ -35,7 +35,7 @@ public class  Board
   }
   
   /* your code here - mutator(s)  */
-
+   
 
   /* ---------- provided code, do not modify ---------- */
   public void setLetterValue()
@@ -54,7 +54,7 @@ public class  Board
   }
 
   private String loadPhrase()
-  {
+  {S
     String tempPhrase = "";
     
     int numOfLines = 0;
